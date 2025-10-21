@@ -1,4 +1,4 @@
-# SES12 Proyecto Python
+# Proyecto LangChain Agentic RRHH & IT
 
 Este proyecto contiene herramientas y utilidades para gestión de RRHH/IT utilizando LangChain y Google Generative AI.
 
