@@ -1,0 +1,223 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "Mi nombre es Luis. Soy empleado de la empresa y necesito asistencia en Recursos Humanos e IT.",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": "Luis",
+            "id": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "vacaciaones",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": "Luis",
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "",
+            "additional_kwargs": {
+                "function_call": {
+                    "name": "consultar_vacaciones",
+                    "arguments": "{\"username\": \"Luis\"}"
+                }
+            },
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--af7b01a2-92f6-47c9-9d39-360433e64494-0",
+            "tool_calls": [
+                {
+                    "name": "consultar_vacaciones",
+                    "args": {
+                        "username": "Luis"
+                    },
+                    "id": "d06bd18e-59d7-4ae2-bed5-01e407214b4e",
+                    "type": "tool_call"
+                }
+            ],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 385,
+                "output_tokens": 17,
+                "total_tokens": 463,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "vacaciaones",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": "Luis",
+            "id": null
+        }
+    },
+    {
+        "type": "tool",
+        "data": {
+            "content": "El usuario 'Luis' tiene 12 d\u00edas de vacaciones disponibles.",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "tool",
+            "name": "consultar_vacaciones",
+            "id": null,
+            "tool_call_id": "d06bd18e-59d7-4ae2-bed5-01e407214b4e",
+            "artifact": null,
+            "status": "success"
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "\u00a1Hola Luis!\n\nConsult\u00e9 tus d\u00edas de vacaciones disponibles y tienes 12 d\u00edas.\n\nEsta informaci\u00f3n fue obtenida utilizando la herramienta de consulta de vacaciones.\n",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--296ddd01-ff07-4495-9ba0-d7ca62e0e55b-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 436,
+                "output_tokens": 33,
+                "total_tokens": 469,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "beneficios",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": "Luis",
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "",
+            "additional_kwargs": {
+                "function_call": {
+                    "name": "listar_beneficios",
+                    "arguments": "{}"
+                }
+            },
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--817cb0a4-d3fa-4f28-bd1b-98c4d5981b17-0",
+            "tool_calls": [
+                {
+                    "name": "listar_beneficios",
+                    "args": {},
+                    "id": "1f6e8c90-0d62-484a-a17e-2ae46e0d9005",
+                    "type": "tool_call"
+                }
+            ],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 474,
+                "output_tokens": 11,
+                "total_tokens": 567,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "beneficios",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": "Luis",
+            "id": null
+        }
+    },
+    {
+        "type": "tool",
+        "data": {
+            "content": "Beneficios disponibles:\n- Medios d\u00edas libres\n- Licencia por fallecimiento de familiar directo\n- Licencia por casamiento\n- D\u00eda de cumplea\u00f1os libre\n- Permiso por maternidad/paternidad\n- Seguro de salud\n- Bonos por desempe\u00f1o",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "tool",
+            "name": "listar_beneficios",
+            "id": null,
+            "tool_call_id": "1f6e8c90-0d62-484a-a17e-2ae46e0d9005",
+            "artifact": null,
+            "status": "success"
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "\u00a1Hola Luis!\n\nLos beneficios disponibles para los empleados son:\n\n*   Medios d\u00edas libres\n*   Licencia por fallecimiento de familiar directo\n*   Licencia por casamiento\n*   D\u00eda de cumplea\u00f1os libre\n*   Permiso por maternidad/paternidad\n*   Seguro de salud\n*   Bonos por desempe\u00f1o\n\nEsta informaci\u00f3n fue obtenida utilizando la herramienta de listar beneficios.\n",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "prompt_feedback": {
+                    "block_reason": 0,
+                    "safety_ratings": []
+                },
+                "finish_reason": "STOP",
+                "safety_ratings": []
+            },
+            "type": "ai",
+            "name": null,
+            "id": "lc_run--68ef0fbd-73d2-4e2e-b3c4-fe7afb97f678-0",
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 564,
+                "output_tokens": 86,
+                "total_tokens": 650,
+                "input_token_details": {
+                    "cache_read": 0
+                }
+            }
+        }
+    }
+]
